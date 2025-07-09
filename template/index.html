@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rain Prediction</title>
+</head>
+<body>
+    <h2>Rain Prediction Form</h2>
+    <form action="/predict" method="post">
+        <label>Date:</label><input type="date" name="date" required><br><br>
+
+        <label>Min Temp:</label><input type="number" step="0.1" name="mintemp" required><br>
+        <label>Max Temp:</label><input type="number" step="0.1" name="maxtemp" required><br>
+        <label>Rainfall:</label><input type="number" step="0.1" name="rainfall" required><br>
+        <label>Evaporation:</label><input type="number" step="0.1" name="evaporation" required><br>
+        <label>Sunshine:</label><input type="number" step="0.1" name="sunshine" required><br>
+        <label>Wind Gust Speed:</label><input type="number" name="windgustspeed" required><br>
+        <label>Wind Speed 9am:</label><input type="number" name="windspeed9am" required><br>
+        <label>Wind Speed 3pm:</label><input type="number" name="windspeed3pm" required><br>
+        <label>Humidity 9am:</label><input type="number" name="humidity9am" required><br>
+        <label>Humidity 3pm:</label><input type="number" name="humidity3pm" required><br>
+        <label>Pressure 9am:</label><input type="number" name="pressure9am" required><br>
+        <label>Pressure 3pm:</label><input type="number" name="pressure3pm" required><br>
+        <label>Temperature 9am:</label><input type="number" name="temp9am" required><br>
+        <label>Temperature 3pm:</label><input type="number" name="temp3pm" required><br>
+        <label>Cloud 9am:</label><input type="number" name="cloud9am" required><br>
+        <label>Cloud 3pm:</label><input type="number" name="cloud3pm" required><br>
+
+        <label>Location:</label>
+        <select name="location">
+            <option>Sydney</option>
+            <option>Cairns</option>
+            <option>Albany</option>
+            <option>GoldCoast</option>
+            <option>NorfolkIsland</option>
+        </select><br>
+
+        <label>Wind Dir 9am:</label>
+        <select name="winddir9am">
+            <option>N</option><option>NNW</option><option>NMW</option><option>WNW</option><option>NW</option>
+        </select><br>
+
+        <label>Wind Dir 3pm:</label>
+        <select name="winddir3pm">
+            <option>N</option><option>NNW</option><option>NMW</option><option>WNW</option><option>NW</option>
+        </select><br>
+
+        <label>Wind Gust Dir:</label>
+        <select name="windgustdir">
+            <option>N</option><option>NNW</option><option>NMW</option><option>WNW</option><option>NW</option>
+        </select><br>
+
+        <label>Rain Today:</label>
+        <select name="raintoday">
+            <option>Yes</option>
+            <option>No</option>
+        </select><br><br>
+
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>

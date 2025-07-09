@@ -3982,3 +3982,329 @@ Please also refer to the documentation for alternative solver options:
                                 subsample_for_bin=200000, subsample_freq=0))],
          verbose=False)
 2025-07-09 10:21:57,714:INFO:save_model() successfully completed......................................
+2025-07-09 10:22:55,141:INFO:Initializing load_model()
+2025-07-09 10:22:55,142:INFO:load_model(model_name=rain_model_lgbm, platform=None, authentication=None, verbose=True)
+2025-07-09 10:30:17,514:INFO:Initializing load_model()
+2025-07-09 10:30:17,514:INFO:load_model(model_name=rain_model_lgbm, platform=None, authentication=None, verbose=True)
+2025-07-09 10:30:17,594:INFO:Initializing predict_model()
+2025-07-09 10:30:17,594:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000204BC663290>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Location', 'MinTemp', 'MaxTemp',
+                                             'Rainfall', 'Evaporation',
+                                             'Sunshine', 'WindGustDir',
+                                             'WindGustSpeed', 'WindDir9am',
+                                             'WindDir3pm', 'WindSpeed9am',
+                                             'WindSpeed3pm', 'Humidity9am',
+                                             'Humidity3pm', 'Pressure9am',
+                                             'Pressure3pm', 'Cloud9am',
+                                             'Cloud3pm', 'Temp9am', 'Temp3pm',
+                                             'Date_month', 'Date_day'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=374))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000204BD018900>)
+2025-07-09 10:30:17,594:INFO:Checking exceptions
+2025-07-09 10:30:17,594:INFO:Preloading libraries
+2025-07-09 10:30:17,594:INFO:Set up data.
+2025-07-09 10:30:17,626:INFO:Set up index.
+2025-07-09 10:31:07,748:INFO:Initializing load_model()
+2025-07-09 10:31:07,749:INFO:load_model(model_name=rain_model_lgbm, platform=None, authentication=None, verbose=True)
+2025-07-09 10:31:07,786:INFO:Initializing predict_model()
+2025-07-09 10:31:07,786:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000020488E67610>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Location', 'MinTemp', 'MaxTemp',
+                                             'Rainfall', 'Evaporation',
+                                             'Sunshine', 'WindGustDir',
+                                             'WindGustSpeed', 'WindDir9am',
+                                             'WindDir3pm', 'WindSpeed9am',
+                                             'WindSpeed3pm', 'Humidity9am',
+                                             'Humidity3pm', 'Pressure9am',
+                                             'Pressure3pm', 'Cloud9am',
+                                             'Cloud3pm', 'Temp9am', 'Temp3pm',
+                                             'Date_month', 'Date_day'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=374))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000204BF417740>)
+2025-07-09 10:31:07,787:INFO:Checking exceptions
+2025-07-09 10:31:07,787:INFO:Preloading libraries
+2025-07-09 10:31:07,788:INFO:Set up data.
+2025-07-09 10:31:07,802:INFO:Set up index.
+2025-07-09 10:31:49,312:INFO:Initializing load_model()
+2025-07-09 10:31:49,313:INFO:load_model(model_name=rain_model_lgbm, platform=None, authentication=None, verbose=True)
+2025-07-09 10:31:49,354:INFO:Initializing predict_model()
+2025-07-09 10:31:49,355:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000204C21D4BD0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Location', 'MinTemp', 'MaxTemp',
+                                             'Rainfall', 'Evaporation',
+                                             'Sunshine', 'WindGustDir',
+                                             'WindGustSpeed', 'WindDir9am',
+                                             'WindDir3pm', 'WindSpeed9am',
+                                             'WindSpeed3pm', 'Humidity9am',
+                                             'Humidity3pm', 'Pressure9am',
+                                             'Pressure3pm', 'Cloud9am',
+                                             'Cloud3pm', 'Temp9am', 'Temp3pm',
+                                             'Date_month', 'Date_day'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=374))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000204C21B6C00>)
+2025-07-09 10:31:49,355:INFO:Checking exceptions
+2025-07-09 10:31:49,356:INFO:Preloading libraries
+2025-07-09 10:31:49,356:INFO:Set up data.
+2025-07-09 10:31:49,370:INFO:Set up index.
+2025-07-09 10:32:52,458:INFO:Initializing predict_model()
+2025-07-09 10:32:52,458:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000204C21F4E10>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Location', 'MinTemp', 'MaxTemp',
+                                             'Rainfall', 'Evaporation',
+                                             'Sunshine', 'WindGustDir',
+                                             'WindGustSpeed', 'WindDir9am',
+                                             'WindDir3pm', 'WindSpeed9am',
+                                             'WindSpeed3pm', 'Humidity9am',
+                                             'Humidity3pm', 'Pressure9am',
+                                             'Pressure3pm', 'Cloud9am',
+                                             'Cloud3pm', 'Temp9am', 'Temp3pm',
+                                             'Date_month', 'Date_day'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=374))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000204BF417EC0>)
+2025-07-09 10:32:52,458:INFO:Checking exceptions
+2025-07-09 10:32:52,458:INFO:Preloading libraries
+2025-07-09 10:32:52,458:INFO:Set up data.
+2025-07-09 10:32:52,475:INFO:Set up index.
+2025-07-09 10:33:24,778:INFO:Initializing predict_model()
+2025-07-09 10:33:24,778:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000204C2333750>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Location', 'MinTemp', 'MaxTemp',
+                                             'Rainfall', 'Evaporation',
+                                             'Sunshine', 'WindGustDir',
+                                             'WindGustSpeed', 'WindDir9am',
+                                             'WindDir3pm', 'WindSpeed9am',
+                                             'WindSpeed3pm', 'Humidity9am',
+                                             'Humidity3pm', 'Pressure9am',
+                                             'Pressure3pm', 'Cloud9am',
+                                             'Cloud3pm', 'Temp9am', 'Temp3pm',
+                                             'Date_month', 'Date_day'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=374))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000204C2343F60>)
+2025-07-09 10:33:24,778:INFO:Checking exceptions
+2025-07-09 10:33:24,778:INFO:Preloading libraries
+2025-07-09 10:33:24,778:INFO:Set up data.
+2025-07-09 10:33:24,778:INFO:Set up index.
+2025-07-09 10:38:11,272:INFO:Initializing predict_model()
+2025-07-09 10:38:11,272:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000204C1F85790>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Location', 'MinTemp', 'MaxTemp',
+                                             'Rainfall', 'Evaporation',
+                                             'Sunshine', 'WindGustDir',
+                                             'WindGustSpeed', 'WindDir9am',
+                                             'WindDir3pm', 'WindSpeed9am',
+                                             'WindSpeed3pm', 'Humidity9am',
+                                             'Humidity3pm', 'Pressure9am',
+                                             'Pressure3pm', 'Cloud9am',
+                                             'Cloud3pm', 'Temp9am', 'Temp3pm',
+                                             'Date_month', 'Date_day'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=374))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000204BEEBEFC0>)
+2025-07-09 10:38:11,272:INFO:Checking exceptions
+2025-07-09 10:38:11,272:INFO:Preloading libraries
+2025-07-09 10:38:11,272:INFO:Set up data.
+2025-07-09 10:38:11,300:INFO:Set up index.
+2025-07-09 10:46:19,506:INFO:Initializing load_model()
+2025-07-09 10:46:19,506:INFO:load_model(model_name=rain_model_lgbm, platform=None, authentication=None, verbose=True)
+2025-07-09 10:46:19,585:INFO:Initializing predict_model()
+2025-07-09 10:46:19,585:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000204C28EA0D0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Location', 'MinTemp', 'MaxTemp',
+                                             'Rainfall', 'Evaporation',
+                                             'Sunshine', 'WindGustDir',
+                                             'WindGustSpeed', 'WindDir9am',
+                                             'WindDir3pm', 'WindSpeed9am',
+                                             'WindSpeed3pm', 'Humidity9am',
+                                             'Humidity3pm', 'Pressure9am',
+                                             'Pressure3pm', 'Cloud9am',
+                                             'Cloud3pm', 'Temp9am', 'Temp3pm',
+                                             'Date_month', 'Date_day'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=374))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000020488E6C540>)
+2025-07-09 10:46:19,585:INFO:Checking exceptions
+2025-07-09 10:46:19,585:INFO:Preloading libraries
+2025-07-09 10:46:19,585:INFO:Set up data.
+2025-07-09 10:46:19,617:INFO:Set up index.
+2025-07-09 10:48:43,588:INFO:Initializing load_model()
+2025-07-09 10:48:43,602:INFO:load_model(model_name=rain_model_lgbm, platform=None, authentication=None, verbose=True)
+2025-07-09 10:48:43,666:INFO:Initializing predict_model()
+2025-07-09 10:48:43,666:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000204C2946D90>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Location', 'MinTemp', 'MaxTemp',
+                                             'Rainfall', 'Evaporation',
+                                             'Sunshine', 'WindGustDir',
+                                             'WindGustSpeed', 'WindDir9am',
+                                             'WindDir3pm', 'WindSpeed9am',
+                                             'WindSpeed3pm', 'Humidity9am',
+                                             'Humidity3pm', 'Pressure9am',
+                                             'Pressure3pm', 'Cloud9am',
+                                             'Cloud3pm', 'Temp9am', 'Temp3pm',
+                                             'Date_month', 'Date_day'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=374))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000204C2ACD940>)
+2025-07-09 10:48:43,666:INFO:Checking exceptions
+2025-07-09 10:48:43,666:INFO:Preloading libraries
+2025-07-09 10:48:43,666:INFO:Set up data.
+2025-07-09 10:48:43,699:INFO:Set up index.
+2025-07-09 10:52:07,418:INFO:Initializing load_model()
+2025-07-09 10:52:07,418:INFO:load_model(model_name=rain_model_lgbm, platform=None, authentication=None, verbose=True)
+2025-07-09 10:52:07,466:INFO:Initializing predict_model()
+2025-07-09 10:52:07,466:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000204C2C65490>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Location', 'MinTemp', 'MaxTemp',
+                                             'Rainfall', 'Evaporation',
+                                             'Sunshine', 'WindGustDir',
+                                             'WindGustSpeed', 'WindDir9am',
+                                             'WindDir3pm', 'WindSpeed9am',
+                                             'WindSpeed3pm', 'Humidity9am',
+                                             'Humidity3pm', 'Pressure9am',
+                                             'Pressure3pm', 'Cloud9am',
+                                             'Cloud3pm', 'Temp9am', 'Temp3pm',
+                                             'Date_month', 'Date_day'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=374))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000204C2BDEB60>)
+2025-07-09 10:52:07,466:INFO:Checking exceptions
+2025-07-09 10:52:07,466:INFO:Preloading libraries
+2025-07-09 10:52:07,466:INFO:Set up data.
+2025-07-09 10:52:07,498:INFO:Set up index.
+2025-07-09 10:53:27,635:INFO:Initializing load_model()
+2025-07-09 10:53:27,635:INFO:load_model(model_name=rain_model_lgbm, platform=None, authentication=None, verbose=True)
+2025-07-09 10:53:27,660:INFO:Initializing predict_model()
+2025-07-09 10:53:27,660:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000020488B3E510>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Location', 'MinTemp', 'MaxTemp',
+                                             'Rainfall', 'Evaporation',
+                                             'Sunshine', 'WindGustDir',
+                                             'WindGustSpeed', 'WindDir9am',
+                                             'WindDir3pm', 'WindSpeed9am',
+                                             'WindSpeed3pm', 'Humidity9am',
+                                             'Humidity3pm', 'Pressure9am',
+                                             'Pressure3pm', 'Cloud9am',
+                                             'Cloud3pm', 'Temp9am', 'Temp3pm',
+                                             'Date_month', 'Date_day'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=374))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000204C2ACD260>)
+2025-07-09 10:53:27,660:INFO:Checking exceptions
+2025-07-09 10:53:27,660:INFO:Preloading libraries
+2025-07-09 10:53:27,660:INFO:Set up data.
+2025-07-09 10:53:27,669:INFO:Set up index.
+2025-07-09 10:54:08,834:INFO:Initializing predict_model()
+2025-07-09 10:54:08,834:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000204C1CE82D0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Location', 'MinTemp', 'MaxTemp',
+                                             'Rainfall', 'Evaporation',
+                                             'Sunshine', 'WindGustDir',
+                                             'WindGustSpeed', 'WindDir9am',
+                                             'WindDir3pm', 'WindSpeed9am',
+                                             'WindSpeed3pm', 'Humidity9am',
+                                             'Humidity3pm', 'Pressure9am',
+                                             'Pressure3pm', 'Cloud9am',
+                                             'Cloud3pm', 'Temp9am', 'Temp3pm',
+                                             'Date_month', 'Date_day'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=374))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000204C2ACDD00>)
+2025-07-09 10:54:08,834:INFO:Checking exceptions
+2025-07-09 10:54:08,834:INFO:Preloading libraries
+2025-07-09 10:54:08,834:INFO:Set up data.
+2025-07-09 10:54:08,872:INFO:Set up index.
+2025-07-09 10:59:16,213:INFO:Initializing predict_model()
+2025-07-09 10:59:16,221:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000204C1CD8890>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Location', 'MinTemp', 'MaxTemp',
+                                             'Rainfall', 'Evaporation',
+                                             'Sunshine', 'WindGustDir',
+                                             'WindGustSpeed', 'WindDir9am',
+                                             'WindDir3pm', 'WindSpeed9am',
+                                             'WindSpeed3pm', 'Humidity9am',
+                                             'Humidity3pm', 'Pressure9am',
+                                             'Pressure3pm', 'Cloud9am',
+                                             'Cloud3pm', 'Temp9am', 'Temp3pm',
+                                             'Date_month', 'Date_day'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=374))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000204C2ACEAC0>)
+2025-07-09 10:59:16,221:INFO:Checking exceptions
+2025-07-09 10:59:16,221:INFO:Preloading libraries
+2025-07-09 10:59:16,221:INFO:Set up data.
+2025-07-09 10:59:16,230:INFO:Set up index.
+2025-07-09 11:00:33,396:INFO:Initializing load_model()
+2025-07-09 11:00:33,396:INFO:load_model(model_name=rain_model_lgbm, platform=None, authentication=None, verbose=True)
+2025-07-09 11:00:33,416:INFO:Initializing predict_model()
+2025-07-09 11:00:33,416:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000204C276F8D0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Location', 'MinTemp', 'MaxTemp',
+                                             'Rainfall', 'Evaporation',
+                                             'Sunshine', 'WindGustDir',
+                                             'WindGustSpeed', 'WindDir9am',
+                                             'WindDir3pm', 'WindSpeed9am',
+                                             'WindSpeed3pm', 'Humidity9am',
+                                             'Humidity3pm', 'Pressure9am',
+                                             'Pressure3pm', 'Cloud9am',
+                                             'Cloud3pm', 'Temp9am', 'Temp3pm',
+                                             'Date_month', 'Date_day'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=374))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000204C2ACD8A0>)
+2025-07-09 11:00:33,416:INFO:Checking exceptions
+2025-07-09 11:00:33,416:INFO:Preloading libraries
+2025-07-09 11:00:33,418:INFO:Set up data.
+2025-07-09 11:00:33,427:INFO:Set up index.
+2025-07-09 11:00:41,463:INFO:Initializing predict_model()
+2025-07-09 11:00:41,463:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000204C289E4D0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Location', 'MinTemp', 'MaxTemp',
+                                             'Rainfall', 'Evaporation',
+                                             'Sunshine', 'WindGustDir',
+                                             'WindGustSpeed', 'WindDir9am',
+                                             'WindDir3pm', 'WindSpeed9am',
+                                             'WindSpeed3pm', 'Humidity9am',
+                                             'Humidity3pm', 'Pressure9am',
+                                             'Pressure3pm', 'Cloud9am',
+                                             'Cloud3pm', 'Temp9am', 'Temp3pm',
+                                             'Date_month', 'Date_day'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=374))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000204C2ACF6A0>)
+2025-07-09 11:00:41,463:INFO:Checking exceptions
+2025-07-09 11:00:41,466:INFO:Preloading libraries
+2025-07-09 11:00:41,466:INFO:Set up data.
+2025-07-09 11:00:41,476:INFO:Set up index.
